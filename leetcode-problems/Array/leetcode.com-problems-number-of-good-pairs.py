@@ -1,6 +1,4 @@
-
-
-nums=[1,2,3,1,1,3,1]
+nums = [1, 2, 3, 1, 1, 3, 1]
 # method one
 # d = {}
 # count = 0
@@ -15,14 +13,14 @@ nums=[1,2,3,1,1,3,1]
 
 
 # method two
-key=[]
-value=[]
+key = []
+value = []
 dict = []
 for i in range(len(nums)):
-    for j in range(i,len(nums)):
-        if nums[i] == nums[j] and i<j:
+    for j in range(i, len(nums)):
+        if nums[i] == nums[j] and i < j:
             key.append(i)
             value.append(j)
-            
-dict=list(zip(key,value))       
+
+dict = list(zip(key, value))
 print(len(dict))

@@ -1,6 +1,4 @@
-
-
-nums=[8,1,2,2,3]
+nums = [8, 1, 2, 2, 3]
 
 # new = []
 # for i in range(len(nums)):

@@ -1,6 +1,4 @@
-
-
-arr = [10,11,12]
+arr = [10, 11, 12]
 odd = 3
 l = len(arr)
 total = sum(arr)
@@ -30,8 +28,10 @@ print(total)
 
 
 #  leetcode solution
-total = 0; freq = 0; n = len(arr)
+total = 0
+freq = 0
+n = len(arr)
 for i in range(n):
-    freq = freq-(i+1)//2+(n-i+1)//2
-    total += freq*arr[i]
+    freq = freq - (i + 1) // 2 + (n - i + 1) // 2
+    total += freq * arr[i]
 print(total)

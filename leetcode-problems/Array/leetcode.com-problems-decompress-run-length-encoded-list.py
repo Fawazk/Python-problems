@@ -1,4 +1,4 @@
-nums = [1,2,3,4,1,5]
+nums = [1, 2, 3, 4, 1, 5]
 
 # method one
 
@@ -14,6 +14,6 @@ nums = [1,2,3,4,1,5]
 
 lst = []
 for freq, value in zip(nums[::2], nums[1::2]):
-    lst.extend(freq*[value])
-        
-print(nums[::2],nums[1::2])
+    lst.extend(freq * [value])
+
+print(nums[::2], nums[1::2])

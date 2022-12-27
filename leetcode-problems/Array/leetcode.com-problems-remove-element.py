@@ -1,12 +1,12 @@
-nums=[0,1,2,2,3,0,4,2]
-val=2
+nums = [0, 1, 2, 2, 3, 0, 4, 2]
+val = 2
 # method one
 
 # n = len(nums)
 # i=0
 # while(i<n):
-#     if nums[i] == val:            
-#         # nums[i] = nums[n-1]  
+#     if nums[i] == val:
+#         # nums[i] = nums[n-1]
 #         nums.pop(i)
 #         print(nums,'==',i)
 #         n = n-1
@@ -28,7 +28,7 @@ i = 0
 while i < length:
     if nums[i] == val:
         nums.pop(i)
-        i=-1
+        i = -1
     else:
-        i=+1
+        i = +1
 print(nums)

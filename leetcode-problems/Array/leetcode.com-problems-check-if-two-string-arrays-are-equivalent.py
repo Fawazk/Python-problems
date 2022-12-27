@@ -1,17 +1,17 @@
 from typing import List
 import time
 
+
 class Solution:
     def arrayStringsAreEqual(self, word1: List[str], word2: List[str]) -> bool:
-
         def listToString(s):
             # initialize an empty string
             str1 = ""
-        
+
             # traverse in the string
             for ele in s:
                 str1 += ele
-        
+
             # return string
             return str1
 
@@ -37,8 +37,7 @@ word2 = ["a", "bc"]
 # word2 = ["ab", "c"]
 # word1=["abc", "d", "defg"]
 # word2 = ["abcddefg"]
-returnval = s.arrayStringsAreEqual(word1,word2)
+returnval = s.arrayStringsAreEqual(word1, word2)
 print(returnval)
 end = time.time()
-print("The time of execution of above program is :",
-      (end-start) * 10**3, "ms")
+print("The time of execution of above program is :", (end - start) * 10**3, "ms")

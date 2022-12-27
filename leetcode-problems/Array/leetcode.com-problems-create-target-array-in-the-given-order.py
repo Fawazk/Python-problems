@@ -1,5 +1,5 @@
-nums=[0,1,2,3,4]
-index = [0,1,2,2,1]
+nums = [0, 1, 2, 3, 4]
+index = [0, 1, 2, 2, 1]
 
 # method one
 # newnums = []
@@ -8,7 +8,7 @@ index = [0,1,2,2,1]
 # print(newnums)
 
 # method two
-array= []
-for i, j in zip(nums,index):
-    array.insert(j,i)
+array = []
+for i, j in zip(nums, index):
+    array.insert(j, i)
 print(array)

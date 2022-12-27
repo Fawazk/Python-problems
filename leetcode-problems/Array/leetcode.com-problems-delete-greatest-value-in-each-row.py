@@ -1,14 +1,14 @@
-
-
 from typing import List
 import time
+
 
 class Solution:
     def __init__(self) -> None:
         array = []
         self.array = array
+
     def deleteGreatestValue(self, grid: List[List[int]]) -> int:
-        temp=[]
+        temp = []
         for i in grid:
             if i == []:
                 print(self.array)
@@ -31,7 +31,7 @@ class Solution:
 #             for i in range(0, len(grid)):
 #                 ans = max(ans, grid[i].pop())
 #             res += ans
-            
+
 #         return res
 
 start = time.time()
@@ -40,5 +40,4 @@ s = Solution()
 grid = [[10]]
 print(s.deleteGreatestValue(grid))
 end = time.time()
-print("The time of execution of above program is :",
-      (end-start) * 10**3, "ms")
+print("The time of execution of above program is :", (end - start) * 10**3, "ms")

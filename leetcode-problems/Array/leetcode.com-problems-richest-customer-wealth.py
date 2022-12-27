@@ -1,4 +1,4 @@
-accounts = [[1,2,3],[3,2,1]]
+accounts = [[1, 2, 3], [3, 2, 1]]
 maxwealth = 0
 for i in accounts:
     sum = 0

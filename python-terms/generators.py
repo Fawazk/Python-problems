@@ -1,15 +1,14 @@
-
-
 # A simple generator for Fibonacci Numbers
 def fib(limit):
-	print(limit)
-	# Initialize first two Fibonacci Numbers
-	a, b = 0, 1
+    print(limit)
+    # Initialize first two Fibonacci Numbers
+    a, b = 0, 1
 
-	# One by one yield next Fibonacci Number
-	while a < limit:
-		yield a
-		a, b = b, a + b
+    # One by one yield next Fibonacci Number
+    while a < limit:
+        yield a
+        a, b = b, a + b
+
 
 # Create a generator object
 # x = fib(int(input("Enter a number?")))
@@ -24,5 +23,5 @@ def fib(limit):
 # Iterating over the generator object using for
 # in loop.
 for i in fib(int(input("Enter a number?"))):
-	print(i,end=',')
+    print(i, end=",")
 print()

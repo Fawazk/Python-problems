@@ -1,7 +1,6 @@
-
-nums = [0,2,1,5,3,4]
+nums = [0, 2, 1, 5, 3, 4]
 ans = []
-for i,n in enumerate(nums):
+for i, n in enumerate(nums):
     ans.append(nums[nums[i]])
 
 # method two

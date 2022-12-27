@@ -1,4 +1,3 @@
-
 # # def prime(a):
 # #     count =0
 # #     for i in range(2,a):
@@ -9,7 +8,7 @@
 # #     if count != 0:
 # #         return 0
 # #     else:
-# #         return 1    
+# #         return 1
 # # for i in range(2,100):
 # #     test=prime(i)
 # #     if test == 1:
@@ -44,8 +43,3 @@
 #     else:
 #         i+=1
 # print(nums)
-
-
-
-
-
