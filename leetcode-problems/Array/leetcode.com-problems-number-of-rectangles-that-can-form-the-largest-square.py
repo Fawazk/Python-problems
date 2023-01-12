@@ -1,4 +1,3 @@
-
 from typing import List
 
 
@@ -24,6 +23,7 @@ class Solution:
         # squares=[min(i) for i in rectangles]
         # return squares.count(max(squares))
 
+
 s = Solution()
-rectangles = [[5,8],[3,9],[5,12],[16,5]]
+rectangles = [[5, 8], [3, 9], [5, 12], [16, 5]]
 print(s.countGoodRectangles(rectangles))

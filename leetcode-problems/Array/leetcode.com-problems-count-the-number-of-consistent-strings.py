@@ -14,7 +14,7 @@ from typing import List
 #             if len(j) == count:
 #                 totalcount += 1
 #             count = 0
-            
+
 #         return totalcount
 
 
@@ -29,7 +29,9 @@ class Solution:
                     count += 1
                     break
         return len(words) - count
+
+
 s = Solution()
 allowed = "abc"
-words = ["a","b","c","ab","ac","bc","abc"]
+words = ["a", "b", "c", "ab", "ac", "bc", "abc"]
 print(s.countConsistentStrings(allowed, words))

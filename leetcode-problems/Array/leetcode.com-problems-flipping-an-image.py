@@ -1,5 +1,3 @@
-
-
 from typing import List
 
 
@@ -16,5 +14,5 @@ class Solution:
 
 
 s = Solution()
-image = [[1,1,0],[1,0,1],[0,0,0]]
+image = [[1, 1, 0], [1, 0, 1], [0, 0, 0]]
 print(s.flipAndInvertImage(image))

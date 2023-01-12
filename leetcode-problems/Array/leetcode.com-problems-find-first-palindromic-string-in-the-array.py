@@ -1,4 +1,3 @@
-
 from typing import List
 
 
@@ -9,6 +8,7 @@ class Solution:
                 return data
         return ""
 
+
 s = Solution()
-words =["abc","car","ada","racecar","cool"]
+words = ["abc", "car", "ada", "racecar", "cool"]
 print(s.firstPalindrome(words))

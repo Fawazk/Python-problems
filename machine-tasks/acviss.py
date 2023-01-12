@@ -7,20 +7,20 @@
 Input = int(input("Enter a number"))
 num = list(map(int, str(Input)))
 leng = len(num)
-l = len(num)-1
-l2 = len(num)-2
+l = len(num) - 1
+l2 = len(num) - 2
 temp = 0
 flag = False
-for i in range(leng-1):
+for i in range(leng - 1):
     if num[l] > num[l2]:
         temp = num[l2]
-        num[l2]=num[l]
+        num[l2] = num[l]
         num[l] = temp
         flag = True
         break
-    
-    l = l-1
-    l2 = l2-1
+
+    l = l - 1
+    l2 = l2 - 1
 if flag:
     next = sorted(num[l:leng])
     result = num[0:l] + next
