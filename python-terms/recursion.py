@@ -5,4 +5,4 @@ def Recursion(n):
         return n + Recursion(n - 1)
 
 
-print(Recursion(10))
+print(Recursion(int(input("Enter a number :"))))

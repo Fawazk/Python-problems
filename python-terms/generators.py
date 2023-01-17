@@ -7,7 +7,8 @@ def fib(limit):
     # One by one yield next Fibonacci Number
     while a < limit:
         yield a
-        a, b = b, a + b
+        a = b
+        b = a + b
 
 
 # Create a generator object
@@ -23,5 +24,5 @@ def fib(limit):
 # Iterating over the generator object using for
 # in loop.
 for i in fib(int(input("Enter a number?"))):
-    print(i, end=",")
+    print(i, end=" ")
 print()

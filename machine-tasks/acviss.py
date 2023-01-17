@@ -2,9 +2,7 @@
 # Example 1:
 # Input: 123321
 # Output: 131223
-
-# Input= 123321
-Input = int(input("Enter a number"))
+Input = int(input("Enter a number :"))
 num = list(map(int, str(Input)))
 leng = len(num)
 l = len(num) - 1
@@ -18,7 +16,6 @@ for i in range(leng - 1):
         num[l] = temp
         flag = True
         break
-
     l = l - 1
     l2 = l2 - 1
 if flag:
