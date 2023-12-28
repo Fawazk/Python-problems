@@ -6,7 +6,6 @@ class Solution:
         m = {}
         count = 0
         for x in nums:
-
             if x + k in m:
                 count += m[x + k]
             if x - k in m:

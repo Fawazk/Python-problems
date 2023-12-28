@@ -1,5 +1,5 @@
-
 from typing import List
+
 
 # leetcode solution
 class Solution:
@@ -8,5 +8,6 @@ class Solution:
         print(nums[::2])
         return sum(nums[::2])
 
+
 s = Solution()
-print(s.arrayPairSum(nums = [6,2,6,5,1,2]))
+print(s.arrayPairSum(nums=[6, 2, 6, 5, 1, 2]))

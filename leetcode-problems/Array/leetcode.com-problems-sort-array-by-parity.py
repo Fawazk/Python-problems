@@ -1,12 +1,13 @@
 from typing import List
 
+
 # using for loop enumerate
 class Solution:
     def sortArrayByParity(self, nums: List[int]) -> List[int]:
-        for i,num in enumerate(nums):
+        for i, num in enumerate(nums):
             if num % 2 == 0:
                 nums.pop(i)
-                nums.insert(0,num)
+                nums.insert(0, num)
         return nums
 
 
@@ -23,4 +24,4 @@ class Solution:
 
 
 s = Solution()
-print(s.sortArrayByParity([3,1,2,4]))
+print(s.sortArrayByParity([3, 1, 2, 4]))

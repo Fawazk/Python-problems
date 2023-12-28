@@ -1,5 +1,6 @@
 from typing import List
 
+
 class Solution:
     def diStringMatch(self, s: str) -> List[int]:
         l = f = 0
@@ -9,9 +10,10 @@ class Solution:
                 l += 1
                 perm.append(l)
             elif s[i] == "D":
-                f -=1
+                f -= 1
                 perm.append(f)
         return [i - f for i in perm]
+
 
 s = Solution()
 print(s.diStringMatch(s="DDI"))

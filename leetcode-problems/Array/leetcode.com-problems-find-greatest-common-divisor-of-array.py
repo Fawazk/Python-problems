@@ -5,13 +5,14 @@ class Solution:
     def findGCD(self, nums: List[int]) -> int:
         nums = sorted(nums)
         minvalue = nums[0]
-        maxvalue = nums[len(nums)-1]
+        maxvalue = nums[len(nums) - 1]
         i = 1
-        while i<= minvalue:
-            if minvalue%i == 0 and maxvalue%i == 0:
+        while i <= minvalue:
+            if minvalue % i == 0 and maxvalue % i == 0:
                 temp = i
-            i +=1
+            i += 1
         return temp
+
 
 # Leetcode solution
 # class Solution:
@@ -26,4 +27,4 @@ class Solution:
 #         return self.fastGcd(max(nums), min(nums))
 
 s = Solution()
-print(s.findGCD(nums=[2,5,6,9,10]))
+print(s.findGCD(nums=[2, 5, 6, 9, 10]))
