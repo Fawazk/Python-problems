@@ -33,17 +33,17 @@ if flag and l != 1:
     print(result)
 elif flag and l == 1:
     result = num[0:l] + num[l:leng]
-    for i in range(first+1,9):
+    for i in range(first + 1, 9):
         count += 1
         if i in result:
-            print(i,count)
+            print(i, count)
             result.remove(i)
-            temp=result[0]
-            result[0]=i
+            temp = result[0]
+            result[0] = i
             break
     result.append(temp)
-    next = sorted(result[1:len(result)])
-    next.insert(0,result[0])
+    next = sorted(result[1 : len(result)])
+    next.insert(0, result[0])
     result = int("".join(map(str, next)))
     print(result)
 else:

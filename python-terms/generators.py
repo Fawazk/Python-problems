@@ -7,8 +7,9 @@ def fib(limit):
     # One by one yield next Fibonacci Number
     while a < limit:
         yield a
+        c = a + b
         a = b
-        b = a + b
+        b = c
 
 
 # Create a generator object
